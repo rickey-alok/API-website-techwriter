@@ -1,12 +1,12 @@
 # TechWriter go-to docs
-A tech writer's go-to document is a reference guide that they can turn to for information and guidance on technical writing best practices. 
+A tech writer's go-to document is a reference guide that they can turn to for information and guidance on below technical topics for quick reference.
 
-1. [Git-Github](Git-Github.md)
-2. [Markdown](Markdown.md)
-3. [JSON](JSON.md)
-4. [MSON](MSON.md)
-5. [CURL](curl.md)
-6. [YAML](yaml.md)
+1. [Git-Github](./pages/gitGitHub.md)
+2. [Markdown](./pages/Markdown.md)
+3. [JSON](./pages/JSON.md)
+4. [MSON](./pages/MSON.md)
+5. [CURL](./pages/CURL.md)
+6. [YAML](./pages/YAML.md)
 7. [HTTP/HTTPS](HTTP-HTTPS.md)
-8. [OpenAPI](OpenAPI.md)
-9. [OSI Model](OSI.md)
+8. [OpenAPI](./pages/OpenAPI.md)
+9. [OSI Model](./pages/OSI-Model.md)

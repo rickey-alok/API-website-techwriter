@@ -1,0 +1,70 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+}
+
+#header {
+  background-color: rgb(190, 190, 223);
+  padding: 15px;
+  /* position: sticky; */
+  top: 0;
+}
+
+#header a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  border-radius: 9px;
+}
+
+#header a:hover {
+  text-decoration: underline;
+  color: white;
+  background-color: rgb(10, 10, 10);
+}
+
+#header-right {
+  float: right;
+}
+
+#footer {
+  width: 100%;
+  height: 90px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  float: left;
+}
+
+#footer p {
+  padding: 6px;
+}
+
+.git-body {
+  width: 100%;
+  height: 2000px;
+  background-color: white;
+}
+
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  right: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #2196f3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
