@@ -7,7 +7,7 @@ header.innerHTML = `
       <a href="./pages/JSON.html">Json</a>
       <a href="./pages/MSON.html">Mson</a>
       <a href="./pages/YAML.html">Yaml</a>
-      <a href="./pages/HTTP-HTTPS.html">Http-Https</a>
+      <a href="./openApiSpecification.html">OpenAPI</a>
       <a href="./pages/OpenAPI.html">OpenAPI</a>
       
       <div id="header-right">
