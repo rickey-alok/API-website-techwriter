@@ -1,9 +1,9 @@
 header.innerHTML = `
   <nav>
     <div>
-      <a href="./index.html">Home</a>
-      <a href="./gitGitHub.html">Git&GitHub</a>
-      <a href="./openApiSpecification.html">OpenAPI</a>
+      <a href="index.html">Home</a>
+      <a href="gitGitHub.html">Git&GitHub</a>
+      <a href="openApiSpecification.html">OpenAPI</a>
       <a href="./MapAPI/app.html">Google Map API</a>
       
       <div id="header-right">
