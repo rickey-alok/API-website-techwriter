@@ -1,5 +1,5 @@
-# TechWriter go-to docs
-A tech writer's go-to document is a reference guide that they can turn to for information and guidance on below technical topics for quick reference.
+# API go-to docs
+An API go-to document is a reference guide that they can be refered for information and guidance on below technical topics for quick reference.
 
 1. [Git-Github](./pages/gitGitHub.md)
 2. [Markdown](./pages/Markdown.md)
