@@ -2,82 +2,82 @@
 #header {
   background-color: rgb(190, 190, 223);
   padding: 15px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   /* position: sticky; */
   top: 0;
 }
 
 #header a {
-    text-decoration: none;
-    color: black;
-    padding: 5px;
-    border-radius: 9px;
-  }
-  
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  border-radius: 24px;
+}
+
 #header a:hover {
-    text-decoration: underline;
-    color: white;
-    background-color: rgb(10, 10, 10);
-  }
-  
-#header-right {
-    float: right;
-    
-  }
+  color: white;
+  background-color: rgb(10, 10, 10);
+}
+
+#header a:active {
+  text-decoration: underline;
+  color: rgb(245, 12, 12);
+  background-color: rgb(10, 10, 10);
+}
+
+.flex-container {
+  display: flex;
+  /* background-color: DodgerBlue; */
+  border: 2px solid;
+  padding: 6px;
+  flex-wrap: wrap;
+}
+
+.flex-items {
+  width: 50%;
+  height: 100%;
+}
 
 /* body start */
 
 .git-body {
-    width: 80%;
-    font-family: 'Courier New', Courier, monospace;
-  }
+  width: 80%;
+  font-family: "Courier New", Courier, monospace;
+}
 
 #cursive {
-    font-family:cursive
+  font-family: cursive;
 }
 
 .sidenav {
-    position:fixed;
-    right: 10px;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 15px;
-    display: block;
-    color: #484646;
-  }
-  
-.sidenav a:hover {
-    color: #050505;
-  }
+  position: fixed;
+  right: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
 
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  color: #484646;
+}
+
+.sidenav a:hover {
+  color: #050505;
+}
 
 #footer {
   width: 100%;
-  height: 90px;
   background-color: rgb(190, 190, 223);
   text-align: center;
-  float: left;
-  font-family: 'Courier New', Courier, monospace;
-
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 3px;
 }
 
-#footer p {
-  padding: 0px;
+img {
+  border-radius: 6px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid;
 }
-
-#home-60 {
-    width: 50%;
-    float: left;
-
-}
-
-
-#home-40 {
-    width: 50%;
-    float: left;
-}
-
