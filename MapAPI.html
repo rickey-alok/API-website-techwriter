@@ -23,7 +23,9 @@
         <div class="fca-items sidenav-api">
           <a href="#h2-what">What</a>
           <a href="#h2-why">Why</a>
+          <a href="#h2-use-case">Use case</a>
           <a href="#h2-Implementation">API Implementation</a>
+          <a href="#h2-google-map">Google Map</a>
         </div>
         <div class="fca-items body-api">
           <h1>API</h1>
@@ -36,29 +38,54 @@
                 A set of protocols that allow different applications to
                 communicate and exchange data.
               </li>
-              <li>asdfa</li>
             </ul>
 
             <h2 id="h2-why">Why</h2>
             <ul>
-              <li>asdfa</li>
-              <li>asdfa</li>
-              <li>asdfa</li>
+              <li>
+                API helps to integrate the existing functionality with a new
+                application.
+              </li>
+              <li>Avoid code to be written from scratch</li>
+              <li>Helps in sharing data</li>
             </ul>
-
-            <h2 id="h2-Implementation">How to Implement an API?</h2>
+            <h2 id="h2-use-case">Use case</h2>
             <ul>
-              <li>asdfa</li>
-              <li>asdfa</li>
-              <li>asdfa</li>
+              <p>
+                Let's assume, you want to create an food delivering app, like
+                zomato or swiggy, and you wanted to integrate a map (google
+                map), which shows the users how far the resturant is from their
+                location once the order is placed. Therefore, being an owner of
+                the food delivering business, would you want to spend much time
+                on creating a map service from scratch or would you just prefer
+                to use the already available service (google map service api),
+                and focus on your core busiess?<br /><br />
+                In my opinion, it is quite obvious to use a service which is
+                already in the market. And when it comes to a map service, what
+                would be a better choise than using a "google map API service".
+                <br /><br />
+                Let's figure it out how a Google map API can be integrated in
+                our app (our website).
+              </p>
             </ul>
+            <h2 id="h2-Implementation">How to Implement an API?</h2>
+            <ol>
+              <li>Go to google console</li>
+              <li>Select a google map api</li>
+              <li>Generate a token.</li>
+              <li>
+                Use the sample code provide by google API servie in your
+                application.
+              </li>
+            </ol>
           </details>
         </div>
       </div>
-      <div id="map">
-        <script src="./MapAPI/app.js"></script>
-      </div>
-      <div id="footer"></div>
     </div>
+    <h2>Google Map Integration example:</h2>
+    <div id="map">
+      <script src="./MapAPI/app.js"></script>
+    </div>
+    <div id="footer"></div>
   </body>
 </html>
