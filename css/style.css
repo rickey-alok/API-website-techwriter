@@ -1,4 +1,8 @@
 /* headers start */
+#cursive {
+  font-family: cursive;
+}
+
 #header {
   background-color: rgb(190, 190, 223);
   padding: 15px;
@@ -37,43 +41,46 @@
 } */
 
 .item1 {
-  order: 1;
   width: 700px;
 }
 
 .item2 {
-  order: 2;
-  flex-shrink: 2;
   width: 600px;
 }
 
 /* body start */
 
-.git-body {
-  width: 80%;
-  font-family: "Courier New", Courier, monospace;
+.flex-container-api {
+  display: flex;
+  padding: 6px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
-#cursive {
-  font-family: cursive;
-}
+/* .fca-items {
+  border: 5px solid;
+} */
 
-.sidenav {
-  position: fixed;
+.sidenav-api {
   right: 10px;
   font-family: "Courier New", Courier, monospace;
 }
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
+.sidenav-api a {
+  padding: 6px 6px 6px 6px;
   text-decoration: none;
-  font-size: 15px;
   display: block;
   color: #484646;
 }
 
-.sidenav a:hover {
-  color: #050505;
+.sidenav-api a:hover {
+  color: white;
+  background-color: rgb(190, 190, 223);
+}
+
+.body-api {
+  font-family: cursive;
 }
 
 #footer {
