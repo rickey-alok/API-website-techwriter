@@ -25,17 +25,26 @@
   background-color: rgb(10, 10, 10);
 }
 
-.flex-container {
+.flex-container-home {
   display: flex;
-  /* background-color: DodgerBlue; */
-  border: 2px solid;
   padding: 6px;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.flex-items {
+/* .fch-items {
   width: 50%;
-  height: 100%;
+} */
+
+.item1 {
+  order: 1;
+  width: 700px;
+}
+
+.item2 {
+  order: 2;
+  flex-shrink: 2;
+  width: 600px;
 }
 
 /* body start */
@@ -79,5 +88,4 @@ img {
   border-radius: 6px;
   height: 100%;
   width: 100%;
-  border: 1px solid;
 }
