@@ -25,10 +25,8 @@
   background-color: rgb(10, 10, 10);
 }
 
-#header a:active {
+#header a:visited {
   text-decoration: underline;
-  color: rgb(245, 12, 12);
-  background-color: rgb(10, 10, 10);
 }
 
 /* home */
@@ -100,4 +98,14 @@ img {
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   margin-top: 3px;
+}
+
+.vs-code {
+  width: 70%;
+  border: 1 px solid;
+}
+
+.vs-code-image {
+  width: 100px;
+  height: 100px;
 }
