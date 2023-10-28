@@ -99,8 +99,15 @@ img {
   margin-top: 3px;
 }
 
+.flex-container-vscode {
+  display: flex;
+  padding: 6px;
+  flex-wrap: wrap-reverse;
+  align-items: flex-end;
+}
+
 .vs-code {
-  width: 70%;
+  width: 1000px;
 }
 
 .vs-code-image {
