@@ -1,5 +1,5 @@
 /* general */
-#cursive {
+body {
   font-family: cursive;
 }
 
@@ -9,7 +9,7 @@
   background-color: rgb(190, 190, 223);
   padding: 15px;
   font-family: "Courier New", Courier, monospace;
-  /* position: sticky; */
+  position: sticky;
   top: 0;
 }
 
@@ -25,9 +25,9 @@
   background-color: rgb(10, 10, 10);
 }
 
-#header a:visited {
+/* #header a:visited {
   color: rgb(242, 242, 165);
-}
+} */
 
 /* home */
 .flex-container-home {
