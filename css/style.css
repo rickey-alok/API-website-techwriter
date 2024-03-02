@@ -85,7 +85,6 @@ img {
 }
 
 .body-api {
-  font-family: cursive;
   padding: 0px;
   width: 70%;
 }
@@ -102,7 +101,7 @@ img {
 .flex-container-vscode {
   display: flex;
   padding: 6px;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   align-items: flex-end;
 }
 
