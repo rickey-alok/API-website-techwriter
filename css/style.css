@@ -37,6 +37,11 @@ body {
   justify-content: space-between;
 }
 
+.index-body {
+  width: auto;
+  height: auto;
+}
+
 /* .fch-items {
   width: 50%;
 } */
