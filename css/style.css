@@ -25,9 +25,9 @@ body {
   background-color: rgb(10, 10, 10);
 }
 
-#header a:visited {
-  color: rgb(7, 7, 7);
-}
+/* #header a:visited {
+  color: rgb(85, 82, 82);
+} */
 
 /* home */
 .flex-container-home {
