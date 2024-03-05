@@ -6,11 +6,12 @@ body {
 /* headers */
 
 #header {
-  background-color: rgb(190, 190, 223);
+  background-color: rgb(190, 190, 223, 0.8);
   padding: 15px;
-  /* font-family: "Courier New", Courier, monospace; */
-  position: sticky;
+  position: relative;
   top: 0;
+  justify-content: center;
+  display: flex;
 }
 
 #header a {
@@ -32,9 +33,9 @@ body {
 /* home */
 .flex-container-home {
   display: flex;
-  /* padding: 60px; */
-  /* flex-wrap: wrap; */
-  /* justify-content: space-between; */
+  padding: 60px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /* API  */
