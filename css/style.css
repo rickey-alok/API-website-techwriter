@@ -11,8 +11,6 @@ body {
   position: relative;
   top: 0;
   /* justify-content: center; */
-  display: flex;
-  flex-direction: column;
 }
 
 #header a {
