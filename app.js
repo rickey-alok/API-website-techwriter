@@ -23,12 +23,27 @@
 
 // reading and writing files synchronously...............................
 // reading file...........
-const fs = require("fs");
+// const fs = require("fs");
 
-let textIn = fs.readFileSync("./nodeJS/input.txt", "utf-8");
-console.log(textIn);
+// let textIn = fs.readFileSync("./nodeJS/input.txt", "utf-8");
+// console.log(textIn);
 
 // writing file...........
-let content = `Data read from input.txt: ${textIn}\n Date created ${new Date()}`;
-let textout = fs.writeFileSync("./nodeJS/output.txt", content);
-console.log(textout);
+// let content = `Data read from input.txt: ${textIn}\n Date created ${new Date()}`;
+// let textout = fs.writeFileSync("./nodeJS/output.txt", content);
+// console.log(textout);
+
+// reading and writing files Asynchronously...............................
+// reading file...........
+const fs = require("fs");
+
+fs.readFile("./nodeJS/input.txt", "utf-8", (error1, Data1) => {
+  console.log(Data1);
+});
+console.log("reading file..."); // just to ensure this line of codes gets executed first and then the data1 info as this works Asynchronously...
+
+// writing file...........
+let content = `new date ${new Date()}`;
+fs.writeFile("./nodeJS/output2.txt", content, () => {
+  console.log("file written successfuly");
+});
