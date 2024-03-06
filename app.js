@@ -35,15 +35,28 @@
 
 // reading and writing files Asynchronously...............................
 // reading file...........
-const fs = require("fs");
+// const fs = require("fs");
 
-fs.readFile("./nodeJS/input.txt", "utf-8", (error1, Data1) => {
-  console.log(Data1);
+// fs.readFile("./nodeJS/input.txt", "utf-8", (error1, Data1) => {
+//   console.log(Data1);
+// });
+// console.log("reading file..."); // just to ensure this line of codes gets executed first and then the data1 info as this works Asynchronously...
+
+// // writing file...........
+// let content = `new date ${new Date()}`;
+// fs.writeFile("./nodeJS/output2.txt", content, () => {
+//   console.log("file written successfuly");
+// });
+
+// creating a server.....................................................
+const http = require("http");
+const server = http.createServer((req, res) => {
+  res.end(res);
+  console.log("a new req received");
 });
-console.log("reading file..."); // just to ensure this line of codes gets executed first and then the data1 info as this works Asynchronously...
 
-// writing file...........
-let content = `new date ${new Date()}`;
-fs.writeFile("./nodeJS/output2.txt", content, () => {
-  console.log("file written successfuly");
+// start the server......................................................
+
+server.listen(9000, "127.0.0.1", () => {
+  console.log("server started");
 });
