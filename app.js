@@ -48,15 +48,37 @@
 //   console.log("file written successfuly");
 // });
 
-// creating a server.....................................................
+//Step-1: Create a server........................................................
+// const http = require("http");
+// const fs = require("fs");
+// const html = fs.readFileSync("./pages/contact.html", "utf-8");
+// const server = http.createServer((req, res) => {
+//   res.end(html);
+// console.log("a new request received");
+// console.log(req);
+// });
+
+// STEP-2: Start the server......................................................
+
+// server.listen(9000, "127.0.0.1", () => {
+//   console.log("server started");
+// });
+
+// create ROUTING...................................................................
 const http = require("http");
+const fs = require("fs");
+const html = fs.readFileSync("./index.html", "utf-8");
+const contact_html = fs.readFileSync("./pages/contact.html", "utf-8");
 const server = http.createServer((req, res) => {
-  res.end(res);
-  console.log("a new req received");
+  let path = req.url;
+  if (path === "/" || path.toLocaleLowerCase() === "/home") {
+    res.end(html);
+  } else if (path.toLocaleLowerCase() === "/contact") {
+    res.end(contact_html);
+  } else {
+    res.end("404: page not found");
+  }
 });
-
-// start the server......................................................
-
 server.listen(9000, "127.0.0.1", () => {
   console.log("server started");
 });

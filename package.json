@@ -1,0 +1,22 @@
+{
+  "name": "api-go-to-doc",
+  "version": "1.0.0",
+  "description": "An API go-to document is a reference guide that they can be refered for information and guidance on below technical topics for quick reference.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickey-alok/api-go-to-doc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rickey-alok/api-go-to-doc/issues"
+  },
+  "homepage": "https://github.com/rickey-alok/api-go-to-doc#readme",
+  "dependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
