@@ -6,11 +6,11 @@ body {
 /* headers */
 
 #header {
-  background-color: rgba(240, 232, 232, 0.2);
+  background-color: rgba(240, 232, 232, 0.6);
   padding: 15px;
   position: relative;
-  top: 0;
-  /* justify-content: center; */
+  bottom: 3px;
+  justify-content: center;
 }
 
 #header a {
@@ -21,8 +21,8 @@ body {
 }
 
 #header a:hover {
-  color: white;
-  background-color: rgb(10, 10, 10);
+  color: rgba(45, 44, 44, 0.6);
+  background-color: rgba(45, 44, 44, 0.12);
 }
 
 /* #header a:visited {
@@ -74,7 +74,7 @@ body {
 /* footer start */
 #footer {
   width: 100%;
-  background-color: rgb(190, 190, 223);
+  background-color: rgba(240, 232, 232, 0.6);
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   margin-top: 3px;
