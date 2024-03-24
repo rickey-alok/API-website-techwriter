@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redoc</title>
+    <!-- needed for adaptive design -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script defer src="./header.js"></script>
+    <script defer src="./footer.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:300,400,700"
+      rel="stylesheet" />
+
+    <!--
+    Redoc doesn't change outer page styles
+    -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header"></div>
+    <div>
+      <redoc
+        spec-url="./openapi/petStore.yaml"
+        required-props-first="true"
+        theme='{
+         "sidebar": {
+           "backgroundColor": "rgba(240, 232, 232, 0.9)"
+         },
+         "rightPanel": {
+          "backgroundColor": "rgba(45, 44, 44, 0.14)",
+          "textColor": "rgba(45, 44, 44, 0.6)"
+        }
+       }'></redoc>
+      <script src="https://cdn.redoc.ly/redoc/latest/bundles/redoc.standalone.js"></script>
+    </div>
+
+    <div id="footer"></div>
+  </body>
+</html>
